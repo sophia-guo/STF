@@ -90,6 +90,7 @@ limitations under the License.
 		<echo message="java_java_specification_version set to ${java_java_specification_version}"/>
 		<echo message="java_java_vm_vendor set to ${java_java_vm_vendor}"/>
 		<echo message="java_bindir set to ${java_bindir}"/>
+		<property name="java_executable" value="${java_bindir}/java${exe_suffix}"/>
 		<property name="java_compiler" location="${java_bindir}/javac${exe_suffix}"/>
 		<echo message="java_compiler set to ${java_compiler}"/>
 	</target>
